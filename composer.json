@@ -17,8 +17,8 @@
 	"require": {
 		"php": ">=7.1",
 		"ext-tokenizer": "*",
-		"nette/finder": "^2.5",
-		"nette/utils": "^3.0"
+		"nette/finder": "*",
+		"nette/utils": "*"
 	},
 	"require-dev": {
 		"nette/tester": "^2.0",
@@ -30,7 +30,8 @@
 	"minimum-stability": "dev",
 	"extra": {
 		"branch-alias": {
-			"dev-master": "3.2-dev"
+			"dev-master": "3.2-dev",
+			"dev-nette-3.0": "3.2-dev"
 		}
 	}
 }
